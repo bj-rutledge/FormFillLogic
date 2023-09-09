@@ -1,0 +1,39 @@
+{
+  "name": "form-filler-logov",
+  "version": "1.0.0",
+  "description": "Logic for LwC LFO form filler.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bj-rutledge/FormFillLogic.git"
+  },
+  "keywords": [
+    "pdf",
+    "form",
+    "form filler"
+  ],
+  "author": "BJ Rutledge (Living with Conviction)",
+  "license": "APACHE 2.0",
+  "bugs": {
+    "url": "https://github.com/bj-rutledge/FormFillLogic/issues"
+  },
+  "homepage": "https://github.com/bj-rutledge/FormFillLogic#readme",
+  "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "joi": "^17.6.0",
+    "mongoose": "^6.5.4",
+    "path": "^0.12.7",
+    "pdf-lib": "^1.17.1",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
