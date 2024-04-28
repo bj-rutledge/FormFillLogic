@@ -149,9 +149,8 @@ const keys = {
   'p_3.3b': Joi.bool().description('Annual Income LESS THAN poverty Checkbox'),
   'p_3.3c': Joi.bool().description('Annual Income GREATER THAN poverty'),
   'p_3.3d': Joi.bool().description('Other Compelling circumstances Checkbox'),
-  'p_3.3d': Joi.bool().description('Other Compelling Checkbox'),
   'p_3.4': Joi.bool().description('Am Homeless Checkbox'),
-  'p_3.5': Joi.bool().description('Not able to do community serice Checkbox'),
+  'p_3.5': Joi.bool().description('Not able to do community service Checkbox'),
   'p_3.6': Joi.bool().description('Not paid LFO in timely manner'),
   'p_3.7': Joi.bool().description('Optional'),
 
@@ -176,14 +175,14 @@ const keys = {
   o_f4: Joi.bool().default(false).description('Is homeless'),
   o_f5: Joi.bool()
     .default(false)
-    .description('Failure to timley pay not willful'),
+    .description('Failure to timely pay not willful'),
   o_f6: Joi.bool()
     .default(false)
     .description('requested opportunity for community service')
     .required(),
   o_f6Has: Joi.bool()
     .default(false)
-    .description('had not requestd community service'),
+    .description('had not requested community service'),
   o_f6HasNot: Joi.bool()
     .default(false)
     .description('has Not requested community service'),
